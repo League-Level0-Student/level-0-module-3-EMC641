@@ -14,11 +14,16 @@ public class OwnAdventure {
 					+ "to an area with two pathes, Path A and Path B. What path are you going to choose? Make sure your answer is all lowercase."); 
 			
 			
+			if(string2.equals("path a"))  {
+				String string3 = JOptionPane.showInputDialog("You ran into lava and you are somewhere else.");
+				
+			}
+			System.exit(0);
 			
-			
-			
-			
-			
+			 if(string2.equals ("path b"))   {
+				String string4 = JOptionPane.showInputDialog("You survied. YAY");
+			}
+			System.exit(0);
 			
 			
 			
