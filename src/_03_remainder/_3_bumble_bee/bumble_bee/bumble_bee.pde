@@ -7,7 +7,24 @@ void setup() {
 }
 
 void draw() {
+  int x=0;
+  int y=0;
+  for(int i=20; i>0; i--)
   
+  {
+    if(i % 2==0)  {
+      
+      fill(0,0,0);
+    }
+    
+    else  {
+      fill(255,242,118);
+       }
+       ellipse(x,y,45,45);
+       x+=20;
+       y+=20;
+  }
+  drawBeeFace(385,385);
 // First run the program and you should see a flower.  
   
   
@@ -38,6 +55,8 @@ void drawFlower(int x, int y) {
      fill(#fff9bb); // light yellow
      ellipse(0, 0, 50, 50);
 } 
+
+
 void drawBeeFace(int BeeFaceX, int BeeFaceY) {
      noStroke();
      fill(0, 0, 0);
